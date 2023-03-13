@@ -5,18 +5,85 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/styles.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
   <title>MSI Watchparty: México</title>
 </head>
 <body>
-  <nav></nav>
+  <nav class="mainMenu">
+    <div class="menuBurger">
+      <div class="burgerLvl"></div>
+      <div class="burgerLvl"></div>
+      <div class="burgerLvl"></div>
+    </div>
 
-  <header></header>
+    <a class="logo"><img src="/img/logo.png"></a>
+  </nav>
 
-  <section id="mainProgram"></section>
+  <header id="header" class="header">
+    <img src="/img/header.png" >
+    <p class="headerDescription">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+    <p class="headerDate">2015.10.15(THU) ~ 16(FRI)</p>
+    <p class="headerVenue">@ National Museum of Karea, Art Center Nabi and more</p>
+  </header>
 
-  <section id="featuredSpeakers"></section>
+  <section id="mainProgram" class="mainProgram">
+    <h1 class="mainProgramHeader">Main Program</h1>
+    <div class="mainProgramDivider"></div>
+    <ul>
+      <li>
+        <img src="/img/programIcon01.png">
+        <h3>Lecture</h3>
+        <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon02.png">
+        <h3>CC Exhibition</h3>
+        <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon03.png">
+        <h3>Forum</h3>
+        <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon04.png">
+        <h3>Workshop</h3>
+        <p>Try creating your own work using open source license rather than just watching at it.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon05.png">
+        <h3>CC Ignite</h3>
+        <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+      </li>
+    </ul>
+    <button>Join CC Global Summit 2015</button>
+  </section>
 
-  <section id="moreButton"></section>
+  <section id="featuredSpeakers" class="featuredSpeakers">
+    <h2>Featured Speakers</h2>
+    <div class="featuredSpeakersDivider"></div>
+    <ul>
+      <li>
+        <img src="/img/speaker01.png">
+        <div class="speakerInfo">
+          <h4>Yochai Benkler</h4>
+          <p class="speakerTitle">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+          <div class="speakerDivider"></div>
+          <p class="speakerDescription">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
+        </div>
+      </li>
+      <li>
+        <img src="/img/speaker02.png">
+        <div class="speakerInfo">
+          <h4>SohYeong Noh</h4>
+          <p class="speakerTitle">Director of Art Centre Nabi and a board member of CC Korea</p>
+          <div class="speakerDivider"></div>
+          <p class="speakerDescription">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <div class="showMore"><p>MORE</p><img src="/img/arrowDown.png"></div>
 </body>
 </html>
