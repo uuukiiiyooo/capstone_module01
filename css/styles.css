@@ -234,9 +234,13 @@ li {
   background-color: #f5f5f5;
 }
 
-.aboutHeader img {
+.aboutHeaderMobile {
   width: 88%;
   margin: 13px auto 53px;
+}
+
+.aboutHeaderDesk {
+  display: none;
 }
 
 .aboutHeaderText {
@@ -603,5 +607,13 @@ li {
     padding: 0 0 0 30px;
     font-size: 7px;
     font-weight: 700;
+  }
+
+  .aboutHeaderMobile {
+    display: none;
+  }
+
+  .aboutHeaderDesk {
+    display: block;
   }
 }
