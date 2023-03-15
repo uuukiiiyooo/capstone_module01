@@ -172,6 +172,10 @@ li {
   margin: 0 2% 30px;
 }
 
+.deskSpeaker {
+  display: none;
+}
+
 .speakerInfo {
   display: flex;
   flex-direction: column;
@@ -223,6 +227,14 @@ li {
 .showMore img {
   width: 2.5%;
 }
+
+.partnersHome {
+  display: none;
+}
+
+.aboutFooterHome {
+  display: none;
+}
 /* About page */
 .aboutHeader {
   display: flex;
@@ -252,6 +264,10 @@ li {
   line-height: 22px;
 }
 
+.aboutHeaderTextDesk {
+  display: none;
+}
+
 .aboutHeaderContact {
   margin: 22px 10% 0;
   text-align: center;
@@ -279,7 +295,7 @@ li {
 }
 
 .logoSection h2 {
-  padding: 27px 0 17px;
+  padding: 27px 78px 17px;
   font-size: 19px;
   font-weight: 700;
   line-height: 25px;
@@ -290,11 +306,15 @@ li {
   border-top: 2px solid #a04038;
 }
 
-.logoSection p {
+.logoInfoMob {
   margin: 17px 4% 35px;
   font-size: 15px;
   font-weight: 700;
   color: #839393;
+}
+
+.logoInfoDesk {
+  display: none;
 }
 
 .pastGlobalSummits {
@@ -356,8 +376,12 @@ li {
   padding: 26px 20px;
 }
 
-.aboutFooter img {
+.aboutFooterLogoMob {
   width: 40%;
+}
+
+.aboutFooterLogoDesk {
+  display: none;
 }
 
 .mobileFooterText {
@@ -462,6 +486,7 @@ li {
 
   .mainProgram {
     background-size: 3%;
+    padding: 7px 0;
   }
 
   .mainProgramHeader {
@@ -471,9 +496,9 @@ li {
 
   .mainProgramDivider {
     margin: 5px 0 30px;
-  };
+  }
 
-  .mainProgram ul {
+  ul#programContent {
     display: flex;
     justify-content: center;
   }
@@ -518,11 +543,23 @@ li {
     color: #fff;
   }
 
+  .featuredSpeakers {
+    padding: 0 0 12px;
+  }
+
   .featuredSpeakers ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     margin: 0 14%;
+  }
+
+  .featuredSpeakers li {
+    margin: 0 2% 13px;
+  }
+
+  .deskSpeaker {
+    display: inherit;
   }
 
   .featuredSpeakers h2 {
@@ -591,7 +628,7 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 26px 118px;
+    padding: 41px 118px;
   }
   
   .aboutFooterHome img {
@@ -609,11 +646,113 @@ li {
     font-weight: 700;
   }
 
+  .aboutHeader {
+    padding: 0 17%;
+    background-image: url(/img/aboutDeskBg.png);
+    background-size: contain;
+    background-position-y: 92px;
+  }
+
   .aboutHeaderMobile {
     display: none;
   }
 
   .aboutHeaderDesk {
     display: block;
+    width: 63%;
+    margin: auto;
+    padding: 62px 0 31px;
+  }
+
+  .aboutHeaderText {
+    display: none;
+  }
+  
+  .aboutHeaderTextDesk {
+    display: block;
+    padding: 21px 34px;
+    background-color: #fff;
+    font-size: 7.5px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 13px;
+  }
+
+  .aboutHeaderContact {
+    margin: 7px 0 0;
+    font-size: 9px;
+  }
+
+  .aboutHeaderMail {
+    font-size: 10px;
+    margin: -8px 0 54px;
+  }
+
+  .logoSection h2 {
+    font-size: 15px;
+    padding: 33px 0 3px;
+  }
+
+  .logoInfoMob {
+    display: none;
+  }
+
+  .logoInfoDesk {
+    display: block;
+    margin: 9px 4% 12px;
+    padding: 0 15%;
+    font-size: 8px;
+    line-height: 11px;
+    font-weight: 500;
+    color: #839393;
+  }
+
+  .logoSection img {
+    width: 38%;
+    padding: 0 0 10px;
+  }
+
+  .pastGlobalSummits h2 {
+    padding: 35px 0 5px;
+    font-size: 15px;
+  }
+
+  .pastGlobalSummits p {
+    margin: 4px 0 9px;
+    font-size: 8px;
+  }
+
+  .pastSummitsImg {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .pastGlobalSummits img {
+    width: 34%;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .aboutFooter {
+    background-color: #2e2e2e;
+  }
+
+  .aboutFooterLogoMob {
+    display: none;
+  }
+
+  .aboutFooterLogoDesk {
+    display: flex;
+    width: 24%;
+    margin: 0 0 0 38px;
+  }
+
+  #aboutFooterText {
+    padding: 9px 0 9px 33px;
+    line-height: 14px;
+    color: #fff;
   }
 }
