@@ -48,7 +48,38 @@ li {
 }
 
 .menuText {
-  display: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 75px 20px 0 0;
+  background-color: rgba(255, 84, 56, 0.95);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  text-align: end;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #fff;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  z-index: 30;
+}
+
+.menuTextToggle {
+  transform: translateY(0%);
+}
+
+.menuText li {
+  padding: 0 0 10px;
+}
+
+.menuText a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .header {
@@ -68,7 +99,7 @@ li {
   padding: 15px 8px;
   font-size: 12px;
   color: #595959;
-  border:  4px solid #fff;
+  border: 4px solid #fff;
   background-color: #f5f5f5;
 }
 
@@ -81,7 +112,7 @@ li {
 
 .headerVenue {
   font-size: 13px;
-  color:#868686;
+  color: #868686;
 }
 
 .mainProgram {
@@ -90,7 +121,7 @@ li {
   justify-content: center;
   align-items: center;
   background-image: url(/img/programPattern.png);
-  background-color: #282B32;
+  background-color: #282b32;
 }
 
 .mainProgramHeader {
@@ -120,7 +151,7 @@ li {
 
 .mainProgram h3 {
   width: 18%;
-  padding: 0 22px 0 0px;
+  padding: 0 22px 0 0;
   font-size: 15px;
   color: #ff5438;
 }
@@ -153,6 +184,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 2%;
 }
 
 .featuredSpeakers h2 {
@@ -172,8 +204,8 @@ li {
   margin: 0 2% 30px;
 }
 
-.deskSpeaker {
-  display: none;
+.featuredSpeakers img {
+  width: 30%;
 }
 
 .speakerInfo {
@@ -191,7 +223,7 @@ li {
   padding: 6px 0 0 0;
   font-size: 10px;
   line-height: 15px;
-  color: #F78C89;
+  color: #f78c89;
 }
 
 .speakerDivider {
@@ -235,6 +267,7 @@ li {
 .aboutFooterHome {
   display: none;
 }
+
 /* About page */
 .aboutHeader {
   display: flex;
@@ -416,7 +449,7 @@ li {
     font-weight: 100;
     color: #fff;
   }
-  
+
   .menuBurger {
     display: none;
   }
@@ -424,13 +457,14 @@ li {
   .mainMenu {
     justify-content: space-between;
   }
-  
+
   .logoMenu img {
     width: 67px;
     padding: 0 0 0 152%;
   }
 
   .menuText {
+    all: initial;
     display: flex;
   }
 
@@ -447,6 +481,10 @@ li {
     margin: 0 0 0 21px;
     padding: 5px 6px;
     font-size: 8px;
+  }
+
+  .menuText a {
+    color: #868686;
   }
 
   #ccCampaignButton {
@@ -604,25 +642,25 @@ li {
     padding: 0 0 23px;
     background-color: #414246;
   }
-  
+
   .partnersHome h2 {
     padding: 19px 0 4px;
     font-size: 15px;
     font-weight: 700;
     color: #8f8f91;
   }
-  
+
   .partnerLogosHome {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  
+
   .partnerLogosHome img {
     padding: 28px 11px 0;
     height: 34px;
   }
-  
+
   .aboutFooterHome {
     display: flex;
     flex-direction: row;
@@ -630,7 +668,7 @@ li {
     align-items: center;
     padding: 41px 118px;
   }
-  
+
   .aboutFooterHome img {
     width: 26%;
   }
@@ -638,7 +676,7 @@ li {
   .mobileFooterText {
     display: none;
   }
-  
+
   .deskFooterText {
     display: flex;
     padding: 0 0 0 30px;
@@ -667,7 +705,7 @@ li {
   .aboutHeaderText {
     display: none;
   }
-  
+
   .aboutHeaderTextDesk {
     display: block;
     padding: 21px 34px;
