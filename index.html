@@ -4,19 +4,107 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <title>MSI Watchparty: México</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'>
+  <title>2023 MSI Watchparty</title>
 </head>
 <body>
-  <nav></nav>
+  <div class="topBar">
+    <img src="/img/topbarFb.png">
+    <img src="/img/topbarTw.png">
+    <a>English</a>
+    <a>My Page</a>
+    <a>Logout</a>
+  </div>
 
-  <header></header>
+  <nav class="mainMenu">
+    <div class="menuBurger">
+      <div class="burgerLvl"></div>
+      <div class="burgerLvl"></div>
+      <div class="burgerLvl"></div>
+    </div>
 
-  <section id="mainProgram"></section>
+    <a href="#header" class="logoMenu"><img src="/img/logo.png"></a>
 
-  <section id="featuredSpeakers"></section>
+    <div class="menuText"><ul>
+      <a id="closeMenuButton"><img src="/img/closeMenu.png"></a>
+      <li><a href="/about.html" id="aboutMenu">About</a></li>
+      <li><a href="#" id="programMenu">Program</a></li>
+      <li><a href="#" id="joinMenu">Join</a></li>
+      <li><a href="#" id="sponsorMenu">Sponsor</a></li>
+      <li><a href="#" id="newsMenu">News</a></li>
+      <li href="#" id="ccCampaignButton"><a>CC Campaign</a></li>
+    </ul></div>
+  </nav>
 
-  <section id="moreButton"></section>
+  <header id="header" class="header">
+    <p class="welcome">Welcome to</p>
+    <h1>THE MID-SEASON<br>INVITATIONAL 2023!</h1>
+    <p class="headerDescription">This year the city of London will receive the many and much talented players from all around the world in a new fast paced and high voltage tournament to prove themselves.</p>
+    <p class="headerDate">2023.05.02(TUE) ~ 21(SUN)</p>
+    <p class="headerVenue">@ Copper Box Arena in London, England</p>
+  </header>
+
+  <section id="mainProgram" class="mainProgram">
+    <h1 class="mainProgramHeader">Main Program</h1>
+    <div class="mainProgramDivider"></div>
+    <ul id="programContent">
+      <li>
+        <img src="/img/programIcon01.png">
+        <h3>Conferences</h3>
+        <p>Listen to developers share their experience working at Riot Games and how to build up your carrer.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon02.png">
+        <h3>Exhibition</h3>
+        <p>Get an insight on the items and stories inspire our teams to create the world of Runeterra.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon03.png">
+        <h3>Streamer Hub</h3>
+        <p>Get the best expierence for your community with a variety of activities design to share.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon04.png">
+        <h3>LoL 101</h3>
+        <p>Bringing up a noob with you? We got you covered with special info for those are not playinf for long.</p>
+      </li>
+      <li>
+        <img src="/img/programIcon05.png">
+        <h3>Hype!</h3>
+        <p>Get ready for the most exciting matches esports can bring and build some amazing memories!</p>
+      </li>
+    </ul>
+    <button>Join CC Global Summit 2015</button>
+    <a class="completeProgram">SEE THE WHOLE PROGRAM</a>
+  </section>
+
+  <section id="featuredSpeakers" class="featuredSpeakers">
+    <h2>The Talent</h2>
+    <div class="featuredSpeakersDivider"></div>
+    <ul id="speakersModule"></ul>
+  </section>
+
+  <div class="showMore"><p>MORE</p><img src="/img/arrowDown.png"></div>
+
+  <section id="partnersHome" class="partnersHome">
+    <h2>Partner</h2>
+    <div class="logoDivider"></div>
+    <div class="partnerLogosHome">
+      <img src="/img/pMozilla.png">
+      <img src="/img/pGoogle.png">
+      <img src="/img/pNaver.png">
+      <img src="/img/pDaumkakao.png">
+      <img src="/img/pAirbnb.png">
+    </div>
+  </section>
+
+  <footer class="aboutFooterHome">
+    <img src="/img/cckLogo.png">
+    <p class="mobileFooterText">2015 Creative Commons Korea.<br>Some Rights Reserved.</p>
+    <p class="deskFooterText">2015 Creative Commons Korea. Some Rights Reserved.<br><br>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.<br>자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+  </footer>
+
+  <script src="/js/scripts.js"></script>
 </body>
 </html>
