@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[My First Microverse Portfolio]** is a replicated version of <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1">this Microverse students template</a> based on HTML5 and CSS3 queries.
+**[My First Microverse Portfolio]** is a replicated mobile first version of <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">this Cindy Shin design</a> based on html5, css3 queries and javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,8 +75,9 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
   </ul>
 </details>
 
@@ -87,7 +88,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe between 1-3 key features of the application. -->
 
 - **This is a mobile first and responsive website**
-- **It shows a copy of [this template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)**
+- **It shows a copy of [this Cindy Shin design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)**
 - **[future_feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,6 +113,8 @@ To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
+Internet connection to clone this repo
+
 <!--In order to run this project you need:-->
 
 <!--
@@ -128,7 +131,7 @@ Clone this repository to your desired folder:
 
 cd my-folder
 
-git clone https://github.com/uuukiiiyooo/First-Microverse-Portfolio.git
+git clone https://github.com/uuukiiiyooo/capstone_module01.git
 <!--
 Example commands:
 
@@ -199,7 +202,15 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
+
+👤 **Cindy Shin**
+
+- Behance: [@adagio07](https://www.behance.net/adagio07)
+<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)-->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 👤 **Ukiyo**
 
@@ -207,22 +218,13 @@ Example:
 - Twitter: [@uuukiiiyooo](https://twitter.com/uuukiiiyooo)
 <!-- - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
-👤 **Naan Ahmed**
-
-- GitHub: [@naanmohammed](https://github.com/naanmohammed)
-<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)-->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[supporting_more_screen-sizes]**
-- [ ] **[add_a_database]**
+- [ ] **[no future features planned]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,7 +234,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/uuukiiiyooo/First-Microverse-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/uuukiiiyooo/capstone_module01/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,7 +254,7 @@ Thanks for your time! I'm always happy to know how to improve this project!
 
 <!-- > Give credit to everyone who inspired your codebase.-->
 
-I would like to thank my coding partners for all help!
+Thanks for pushing so hard Microverse, I'm amazed of what can I do now!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

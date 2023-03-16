@@ -90,9 +90,21 @@ li {
   background-color: #f5f5f5;
 }
 
-.header img {
-  padding: 101px 0 23px;
-  width: 100%;
+.welcome {
+  padding: 74px 0 0;
+  font-size: 23px;
+  color: #ff5438;
+}
+
+.header h1 {
+  padding: 0 0 19px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 52px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url('/img/titleTexture.jpg');
+  color: transparent;
 }
 
 .headerDescription {
@@ -582,7 +594,7 @@ li {
   }
 
   .featuredSpeakers {
-    padding: 0 0 12px;
+    padding: 0 0 52px;
   }
 
   .featuredSpeakers ul {
